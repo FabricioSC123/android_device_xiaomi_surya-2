@@ -14,6 +14,9 @@ ro.product.marketname          u:object_r:build_prop:s0
 # IR
 ro.lirc.dev                    u:object_r:lirc_prop:s0
 
+# NFC
+ro.vendor.se.type              u:object_r:build_prop:s0
+
 # MIUI
 ro.cust.test                   u:object_r:exported_system_prop:s0
 ro.miui.                       u:object_r:exported_system_prop:s0

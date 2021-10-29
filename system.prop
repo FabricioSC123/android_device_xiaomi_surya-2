@@ -14,7 +14,8 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 vendor.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,org.pixelexperience.faceunlock
+camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Battery Property
 ro.charger.enable_suspend=true
@@ -38,18 +39,11 @@ ro.netflix.bsp_rev=Q6150-17263-1
 # System prop for NFC DT
 ro.nfc.port=I2C
 
-# Radio
-persist.radio.multisim.config=dsds
-persist.sys.fflag.override.settings_provider_model=false
-ril.subscription.types=RUIM
-ro.telephony.default_cdma_sub=0
-ro.telephony.default_network=22,22
-telephony.lteOnCdmaDevice=1
-
 # Recovery
 ro.recovery.ui.margin_height=48
 
 # Time
+persist.timed.enable=true
 persist.vendor.delta_time.enable=true
 
 # WiFi
@@ -62,3 +56,6 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Supported AOSP Feature
 ro.support_one_handed_mode=true
+
+# support otg reverse charge
+persist.vendor.otg_control=true
