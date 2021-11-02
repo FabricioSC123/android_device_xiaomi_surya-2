@@ -1,0 +1,2 @@
+get_prop(surfaceflinger, qemu_hw_prop)
+get_prop(surfaceflinger, qemu_sf_lcd_density_prop)
