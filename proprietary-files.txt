@@ -1,45 +1,5 @@
 # All unpinned blobs are extracted - from surya MIUI V12.5.3.0.RJGMIXM.
 
-# ADSP 
-vendor/bin/adsprpcd|c1b9fe936ffbcd5a875baa785f4b9629366083ec
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|96b08f4e97ef20e20a8d7f89212a5549abe66666
-vendor/lib/libadsp_default_listener.so|92ca2faf693eb488394440b94b6deb73fe9504e2
-vendor/lib/libadsprpc.so|437f6ab24e5a08de250529bf0adf5ecaed88817d
-vendor/lib/libmdsprpc.so|85f8448bc9649fa618cbeb386efc2085c20ba1f7
-vendor/lib/libsdsprpc.so|e58239cc2cec4bad6d328b2f29295a247541ab1f
-vendor/lib64/libadsp_default_listener.so|84ffb0536efd42fb0ebc67c194f88da3da6ca9de
-vendor/lib64/libadsprpc.so|5e677d9e7ecc56d8c9bf7bcc49f1e717b5669aad
-vendor/lib64/libmdsprpc.so|523f6501e39101a9d61baffccd20a0d2848e3524
-vendor/lib64/libsdsprpc.so|96ed968d5d79c3fe8c37f331082c16cf5212dc52
-
-# ADSP modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|7182a5728055dfdee15cd9518c1fdd576d813133
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so|67e36bfe46b82bc3e0603bf58d638293fcadd4aa
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
-vendor/lib/rfsa/adsp/libVC1Dec.so|732ede3ede9e6e1b09c439156f62a07d8fa0ee3e
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|eff059c5a29a44d205bd60ad24aecc46416e939e
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
-vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so|f624829796c1190b0156873d2620a62ea946e383
-vendor/lib/rfsa/adsp/libcamera_nn_skel.so|29d949909c9f115491b781ff93604be238e0f965
-vendor/lib/rfsa/adsp/libcvpdsp_skel.so|58cbb97212073cf7e4780c6d77a7628c3ee845bd
-vendor/lib/rfsa/adsp/libdspCV_skel.so|c6034c389845a94a4054dd0fe9a0381adbf086e5
-vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057170568892a18f
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|aee67209556f075cabdb55ddc70d7a76ffc74b3b
-vendor/lib/rfsa/adsp/libfastcvadsp.so|5c86de2533d60534ce5b07e6be13bcf988e4b03b
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|50ac955393bfae796e5fcaccad0bd8c90bd5d16a
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|55d2c71535acdcbbdd7b0a3fe475249c8d99eb08
-vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so|43ad92a5fdd5a2f9abd631924c820ee2dd8702cf
-vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so|70b13b462577b85a40e1a089d44a5c84830df1fe
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|b1c232b8fe7a11754a2f2148d4d2f12496a1dbe1
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
-vendor/lib/rfsa/adsp/misound_res.bin|2032afe6449073799493b54db7c73c6a34c65a87
-vendor/lib/rfsa/adsp/tas25xx_TI_0.bin|b8de15b797463fedfb83a827ddfccbd48903ea76
-vendor/lib/rfsa/adsp/tas25xx_TI_1.bin|9eb2f8b5acbddc5ae3107411669a6c68b1dc90ba
-
 # Alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|5885c09b8446d8b0c1f665bd9522792d79201cd7
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|5f8bf423e3c4b56b5f8278eb5bae141d816c791c
@@ -53,12 +13,6 @@ vendor/lib/hw/com.dsi.ant@1.0-impl.so|d99ff0030ce14172d9d10e0b1f31b2d201aade10
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|8b19b9cb7cdf2c7635608c270bec1c6cb9281049
 
 # Audio
-vendor/lib/soundfx/libasphere.so|44cd20e13920888b29d3b2e4bb0b2559a746bf8f
-vendor/lib/soundfx/libmisoundfx.so|151bf9a8e36b95d2d5ad4c502b4cfcebdcb56d22
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
-vendor/lib/soundfx/libshoebox.so|8c25f9bd479540f1b43c6827020376a40a667270
 vendor/lib/liba2dpoffload.so|fd6421911c0dd7bf95e9cc2757f23ca935ee9ae0
 vendor/lib/libacdb-fts.so|6a3edbf3dc492b3a0962c9e6b58df64bd5bc92ff
 vendor/lib/libacdbloader.so|eb5f94a5b0f3d992fc9da3f0c9f8b21426412d6f
@@ -66,47 +20,12 @@ vendor/lib/libacdbrtac.so|e4870e15b386a607d4d787803e4a842aab2e8781
 vendor/lib/libadiertac.so|2e06f58eb33c540dd322c687c2d4f76fffc08145
 vendor/lib/libadm.so|c5d8693dbec640d3366ad7620833b2e4387f3c01
 vendor/lib/libaudcal.so|348d973172c4431657430b30009bb2b7c9fe5d10
-vendor/lib/libaudioalsa.so|448ebf789e999363f848f8a42c5f87673145d635
-vendor/lib/libaudioconfigstore.so|a00b695d8ec2666bdce729e0f947149c3b78b2b5
 vendor/lib/libaudioparsers.so|b786d5a2a8f94edb11b5334bbe981dbd2633325f
-vendor/lib/libbatterylistener.so|c84ec48ced680da7032d37ccd2adc8bf23bf4dd3
-vendor/lib/libcirrusspkrprot.so|56acb05c0658dc9c2eab8c7979d0dedbf30694a5
-vendor/lib/libcomprcapture.so|1547fac549d1c53f83a5bffe17104e07fcf08de7
-vendor/lib/libdrc.so|e27974e53efe0456cba96f6910ad977c6351d0b7
-vendor/lib/libexthwplugin.so|294f8231d1e223a075e3662298a6feea72211bb5
 vendor/lib/libhdmiedid.so|be762d2db061fbe9c9cb14e30993c0d9d43f5181
-vendor/lib/libhdmipassthru.so|77409618bb4f1304ce8f8f788474bbc51e887a5d
 vendor/lib/libhfp.so|6f5fc3ae603d7848e88bf8ad70e6fc7c7af0e007
 vendor/lib/libqtigef.so|382167926386b8f0b809ba06bfe7be9d12613beb
-vendor/lib/libsndmonitor.so|d1c49170c519a7f1755caa37ab58259670161638
-vendor/lib/libspkrprot.so|7732a6d15cb4238e3d20214991ec47d3066c6897
-vendor/lib/libssrec.so|8a200e7036d156106438d70b9e80850a04a74d9f
-vendor/lib/libsurround_3mic_proc.so|1d425b4b0d89f68e0f0112e8f2f73b1cd5b6dea2
-vendor/lib64/soundfx/libasphere.so|7d01becf38d808b232aef88025e4dd69839b788f
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/soundfx/libshoebox.so|81b3312b54e147c8b5375c712a004661fb78e8bf
-vendor/lib64/liba2dpoffload.so|99fec36971ca51d8337d3dbb3ebb2139fb7d052b
-vendor/lib64/libacdb-fts.so|8810fe01e28e75d88fc79f1add059ab5d91842c4
-vendor/lib64/libacdbloader.so|bdd5713bc39db27c5c1224a55378e168da5ebdb9
-vendor/lib64/libacdbrtac.so|a4c38697a668baa0273f34f5e075f9ed90f39a38
-vendor/lib64/libadiertac.so|9f9f48ca2647a6efab07b01fb6809662146668ea
-vendor/lib64/libaudcal.so|b7eafeefcaceb2165fa7b11df12fa5fa95db7db0
-vendor/lib64/libaudioalsa.so|d9316323d6d93b46c1f429cc0d4ef2271e04fd55
-vendor/lib64/libaudioconfigstore.so|3a34f90b540655ad3dc212f5228fd1d0db248a34
-vendor/lib64/libaudioparsers.so|326954ecd50e2b0a25ff0f076def93271a9bd554
-vendor/lib64/libbatterylistener.so|aea5af22ad430e0a734193aec73664d41ad9d294
-vendor/lib64/libcirrusspkrprot.so|06bac6f87221e24e7e80f1ff54e5abbbf82be7e7
-vendor/lib64/libcomprcapture.so|98d6f397b33786c74727d7806f9e9830606b2323
-vendor/lib64/libexthwplugin.so|6b16f7c527af69f0b4787cd250f3acae2b63a998
-vendor/lib64/libhdmiedid.so|dcfc7251de6d06c0339755b96885d13a78b170ad
-vendor/lib64/libhdmipassthru.so|1d171c7cafa70e064a383d54cfab71de56c439ab
-vendor/lib64/libhfp.so|a9df52e3d3766fcf488c567f7b85011c38d8c8b6
-vendor/lib64/libqtigef.so|9d8a1d3c572e922e992b97c6ce2a58abb50e4bf7
-vendor/lib64/libsndmonitor.so|d8fc0deb22c20fec99227ec34af0b0ba0814b9f1
-vendor/lib64/libspkrprot.so|db6280ece624ee820599ba7897228cbf089399d3
-vendor/lib64/libssrec.so|4802f63763dfcbdd927927dd7edf05dc4807e4ca
+vendor/lib/libsndmonitor.so
+vendor/lib/libspkrprot.so
 
 # Audio ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb|c2d1681437a8f797c3e754deea07009a0b76da60
@@ -123,11 +42,60 @@ vendor/etc/acdbdata/adsp_avs_config.acdb|07316aaca619fbceb5edc07e46fd0957e34afaa
 # Audio firmware
 vendor/firmware/tas256x_reg.bin|e947b68b8e1f8ffede952aabef048c10e147f9c8
 
+# Audio FX modules
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libshoebox.so
+
 # Audio HAL
 vendor/lib/hw/audio.primary.sm6150.so|34db41796d835b8f6d9874411f97dd4ae0987413
 vendor/lib/libaudio_log_utils.so|71ec4d31ad6c9e9a4bee8db7b5ab55b70ef7c4c3
-vendor/lib64/hw/audio.primary.sm6150.so|77be11e783a9f6708ce625e56b9128333fa11fc7
-vendor/lib64/libaudio_log_utils.so|6091c30d5724adb31a3b4c71379cc004c235905a
+
+# Audio ADSP
+vendor/bin/adsprpcd
+vendor/bin/cdsprpcd
+vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libadsprpc.so
+vendor/lib/libcdsp_default_listener.so
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libadsprpc.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libmdsprpc.so
+vendor/lib64/libsdsprpc.so
+
+# Audio ADSP modules
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+vendor/lib/rfsa/adsp/libVC1Dec.so
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
+vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so
+vendor/lib/rfsa/adsp/libcvpdsp_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/misound_res.bin
+vendor/lib/rfsa/adsp/tas25xx_TI_0.bin
+vendor/lib/rfsa/adsp/tas25xx_TI_1.bin
 
 # Batterysecret
 vendor/bin/batterysecret|c653ff3305229b3c2bd99162fbe35118de35abeb
