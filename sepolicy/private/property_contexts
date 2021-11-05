@@ -29,8 +29,8 @@ ro.cust.test                   u:object_r:exported_system_prop:s0
 ro.miui.                       u:object_r:exported_system_prop:s0
 
 # QEMU
-qemu.sf.lcd_density            u:object_r:vendor_display_prop:s0
-qemu.hw.                       u:object_r:exported_system_prop:s0
+qemu.sf.lcd_density            u:object_r:build_prop:s0
+qemu.hw.                       u:object_r:build_prop:s0
 
 # XiaomiParts
 persist.lcd.                   u:object_r:persist_lcd_prop:s0
