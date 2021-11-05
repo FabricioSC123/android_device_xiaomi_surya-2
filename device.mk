@@ -7,6 +7,9 @@
 # Inherit the proprietary setup
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 
+# Firmware Surya
+$(call inherit-product, firmware/xiaomi/surya/Android.mk)
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Disable APEX compression
