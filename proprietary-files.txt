@@ -562,6 +562,19 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|75a185c5a16bd31c92b1ca
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|1c66f61967932f584b599ab51644bf4563c86280
 
+# GPS - from LA.QSSI.11.0.r1-12100-qssi.0
+system_ext/etc/permissions/com.qti.location.sdk.xml
+system_ext/etc/permissions/com.qualcomm.location.xml
+system_ext/etc/permissions/com.qualcomm.qmapbridge.xml
+system_ext/etc/permissions/com.qualcomm.qti.izattools.xml
+system_ext/etc/permissions/izat.xt.srv.xml
+system_ext/etc/permissions/privapp-permissions-com.qualcomm.location.xml
+-system_ext/framework/com.qti.location.sdk.jar
+-system_ext/framework/izat.xt.srv.jar
+-system_ext/framework/qmapbridge.jar
+system_ext/lib64/libloc2jnibridge.so
+-system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+
 # GPS - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/garden_app|942023accc55d8a09e647014548b8a3f8429d999
 vendor/bin/loc_launcher|3f459689fb80a2fb0f70b0a5fa4b3ddd36db79c4
